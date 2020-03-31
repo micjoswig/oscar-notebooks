@@ -50,6 +50,12 @@ uuid = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 [[FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
+[[GAP]]
+deps = ["Libdl", "Pkg", "REPL"]
+git-tree-sha1 = "4f2276786875ef41ca84874e2600f1e09386e474"
+uuid = "c863536a-3901-11e9-33e7-d5cd0df7b904"
+version = "0.3.5"
+
 [[Hecke]]
 deps = ["AbstractAlgebra", "Dates", "Distributed", "InteractiveUtils", "Libdl", "LinearAlgebra", "Markdown", "Nemo", "Pkg", "Printf", "Profile", "Random", "Requires", "Serialization", "SparseArrays", "Test"]
 git-tree-sha1 = "b9a12f6ae937c77fa85e55da1234f239f03b7ca2"
