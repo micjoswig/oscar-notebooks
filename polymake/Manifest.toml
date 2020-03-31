@@ -17,15 +17,15 @@ version = "0.5.8"
 
 [[CMake]]
 deps = ["BinDeps"]
-git-tree-sha1 = "c67a8689dc5444adc5eb2be7d837100340ecba11"
+git-tree-sha1 = "50a8b41d2c562fccd9ab841085fc7d1e2706da82"
 uuid = "631607c0-34d2-5d66-819e-eb0f9aa2061a"
-version = "1.1.2"
+version = "1.2.0"
 
 [[CxxWrap]]
-deps = ["BinaryProvider", "Libdl"]
-git-tree-sha1 = "c7865f82d1ccfd98d11bba256bd22c27b5ca2864"
+deps = ["BinaryProvider", "Libdl", "MacroTools"]
+git-tree-sha1 = "dd6809ca3f34269b9daa3ae397d74283234830fe"
 uuid = "1f15a43c-97ca-5a2a-ae31-89f07a497df4"
-version = "0.8.2"
+version = "0.9.0"
 
 [[Dates]]
 deps = ["Printf"]
@@ -55,8 +55,20 @@ uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 deps = ["Libdl"]
 uuid = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
+[[LoadFlint]]
+deps = ["BinaryProvider", "Libdl"]
+git-tree-sha1 = "e6138627966133857779d7041faa548e3f7606a0"
+uuid = "472f376f-f1cf-461b-9ac1-d103423be9b7"
+version = "0.1.2"
+
 [[Logging]]
 uuid = "56ddb016-857b-54e1-b83d-db4d58db5568"
+
+[[MacroTools]]
+deps = ["Markdown", "Random"]
+git-tree-sha1 = "f7d2e3f654af75f01ec49be82c231c382214223a"
+uuid = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+version = "0.5.5"
 
 [[Markdown]]
 deps = ["Base64"]
@@ -67,21 +79,19 @@ uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [[Parsers]]
 deps = ["Dates", "Test"]
-git-tree-sha1 = "0139ba59ce9bc680e2925aec5b7db79065d60556"
+git-tree-sha1 = "d6d82d5bdbb75048e574cd2d2c89dfbf2c74250c"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "0.3.10"
+version = "1.0.0"
 
 [[Pkg]]
-deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
+deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "Test", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Polymake]]
-deps = ["BinaryProvider", "CMake", "CxxWrap", "JSON", "Libdl", "Markdown", "Pkg", "REPL", "SparseArrays"]
-git-tree-sha1 = "5f5f46849cfcd0890ca181f3e286b4df1e685026"
-repo-rev = "master"
-repo-url = "https://github.com/oscar-system/Polymake.jl.git"
+deps = ["BinaryProvider", "CMake", "CxxWrap", "JSON", "Libdl", "LoadFlint", "Markdown", "Pkg", "REPL", "SparseArrays"]
+git-tree-sha1 = "7aa38d1c31babd21d2d9437e6a3ea5f81cabb7ea"
 uuid = "d720cf60-89b5-51f5-aff5-213f193123e7"
-version = "0.2.2"
+version = "0.3.2"
 
 [[Printf]]
 deps = ["Unicode"]
