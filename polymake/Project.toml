@@ -1,2 +1,5 @@
 [deps]
 Polymake = "d720cf60-89b5-51f5-aff5-213f193123e7"
+
+[compat]
+julia = "1.3"
