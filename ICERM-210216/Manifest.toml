@@ -92,6 +92,14 @@ git-tree-sha1 = "e05c6c8bd8422e373adf770b9f8f433e49c525cf"
 uuid = "de1ad85e-c930-5cd4-919d-ccd3fcafd1a3"
 version = "400.1100.0+0"
 
+[[GITFans]]
+deps = ["GAP", "Markdown", "Nemo", "Oscar", "Polymake", "Singular"]
+git-tree-sha1 = "f8ddf8b52ae2c38e12fd26e26d3d0d6bca9418a3"
+repo-rev = "55e4225"
+repo-url = "https://github.com/oscar-system/GITFans"
+uuid = "bae9ab8d-3bdf-4b94-b0a9-3c739434d802"
+version = "0.1.0"
+
 [[GLPK_jll]]
 deps = ["Artifacts", "GMP_jll", "JLLWrappers", "Libdl", "Pkg"]
 git-tree-sha1 = "9b717ca4e967fad6b8b6071f4cca1f9593a66499"
