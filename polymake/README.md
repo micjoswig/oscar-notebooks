@@ -3,6 +3,8 @@ Collection of ipynb show cases for [polymake](https://www.polymake.org/) in [Jul
 
 The polymake code, mostly written in C++ and Perl, is available on [github](https://github.com/polymake/polymake) as a squashed read-only mirror.
 
+Code has been verified with Oscar v0.5.1 on Julia v1.5.3.
+
 If you want to learn about how polymake works or how to use it, e.g., see
 * [introductory tutorial](https://polymake.org/doku.php/user_guide/intro_tutorial)
 * [publications about or with reference to polymake](https://www.polymake.org/doku.php/publications)
