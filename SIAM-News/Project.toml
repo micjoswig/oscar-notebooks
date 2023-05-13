@@ -1,2 +1,5 @@
+authors = [ "Mara Belotti", "Michael Joswig <joswig@math.tu-berlin.de>", "Chiara Meroni", "Victoria Schleis", "Johannes Schmitt" ]
+version = "1.0.0"
+
 [deps]
 Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
