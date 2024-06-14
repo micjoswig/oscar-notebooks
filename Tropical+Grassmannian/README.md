@@ -1,4 +1,4 @@
-# The tropical Grassmanniann TGr(3,6)
+# The tropical Grassmannian TGr(3,6)
 
 The Grassmannian Gr(k,n) is an algebraic variety which parametrizes the k-dimensional linear subspaces of an n-dimensional vector space, say over the complex numbers.
 The tropical Grassmannian TGr(k,n) is its tropicalization, and it parametrizes the realizable tropical linear spaces.
