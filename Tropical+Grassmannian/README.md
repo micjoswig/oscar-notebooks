@@ -5,3 +5,5 @@ The tropical Grassmannian TGr(k,n) is its tropicalization, and it parametrizes t
 
 The investigation of the tropical Grassmannians started with [an article](https://www.degruyter.com/document/doi/10.1515/advg.2004.023/pdf) by Speyer and Sturmfels.
 Here we recover some of their results.
+
+Current version checked with OSCAR versions 1.0.3, 1.1.0.
